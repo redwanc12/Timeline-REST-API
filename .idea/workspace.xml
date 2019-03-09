@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc548ea4-17c3-4e25-ba34-7dce4b41147d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="185" />
-          <entry key="py" value="11676" />
+          <entry key="py" value="11813" />
           <entry key="txt" value="43" />
           <entry key="yml" value="277" />
         </counts>
@@ -59,7 +55,7 @@
         <counts>
           <entry key="Dockerfile" value="185" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="11676" />
+          <entry key="Python" value="11813" />
           <entry key="YAML" value="277" />
         </counts>
       </usages-collector>
@@ -110,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -160,11 +156,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
-                <marker date="1552100373807" expanded="true" signature="361:366" ph="..." />
               </folding>
             </state>
           </provider>
@@ -660,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="374">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
@@ -670,11 +665,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-            <marker date="1552100373807" expanded="true" signature="361:366" ph="..." />
           </folding>
         </state>
       </provider>
