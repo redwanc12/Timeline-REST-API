@@ -15,6 +15,14 @@ def recipe_image_file_path(instance, filename):
     return os.path.join('uploads/recipe/', filename)
 
 
+def timeline_image_file_path(instance, filename):
+    """generates file path for new recipe image"""
+    ext = filename.split('.')[-1]
+    filename = f'{uuid.uuid4()}.{ext}'
+
+    return os.path.join('uploads/timeline/', filename)
+
+
 class UserManager(BaseUserManager):
 
     def create_user(self, email, password=None, **extra_fields):
@@ -92,3 +100,15 @@ class Recipe(models.Model):
 
     def __str__(self):
         return self.title
+
+
+# Timeline:
+class Post(models.Model):
+    """Post object"""
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE
+    )
+
+    image = models.ImageField(null=True, upload_to=timeline_image_file_path)
+    caption = models.CharField(max_length=255, blank=True)

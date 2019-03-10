@@ -41,6 +41,7 @@ class RecipeSerializer(serializers.ModelSerializer):
             'ingredients',
             'tags',
             'time_minutes',
+            'image',
             'price',
             'link'
         )
